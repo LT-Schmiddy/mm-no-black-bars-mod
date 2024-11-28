@@ -3,7 +3,7 @@
 This a mod for Zelda64Recomp that does exactly what it says on the tin. It disables all instances of letterboxing in the game, such as when aiming or in target lock-on.
 
 ### Tools
-You'll need to install `clang`, `make`, and the latest version of Python 3 to build this template.
+You'll need to install `clang`, `make`, and the latest version of Python to build this template.
 * On Windows, using [chocolatey](https://chocolatey.org/) to install both is recommended. The packages are `llvm` and `make` respectively.
   * The LLVM 19.1.0 [llvm-project](https://github.com/llvm/llvm-project) release binary, which is also what chocolatey provides, does not support MIPS correctly. The solution is to install 18.1.8 instead, which can be done in chocolatey by specifying `--version 18.1.8` or by downloading the 18.1.8 release directly.
 * On Linux, these can both be installed using your distro's package manager.
