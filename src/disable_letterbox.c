@@ -2,10 +2,10 @@
 #include "z64view.h"
 #include "disable_letterbox.h"
 
-RECOMP_PATCH void View_ApplyLetterbox(View* view) {
+RECOMP_FORCE_PATCH void View_ApplyLetterbox(View* view) {
     return;
 }
 
-RECOMP_PATCH void ShrinkWindow_Draw(GraphicsContext* gfxCtx) {
-    return;
-}
+// RECOMP_PATCH void ShrinkWindow_Draw(GraphicsContext* gfxCtx) {
+//     return;
+// }
