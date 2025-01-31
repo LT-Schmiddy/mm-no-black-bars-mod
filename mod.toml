@@ -8,14 +8,16 @@
 id = "no_letterboxing"
 
 # Version of this mod.
-version = "1.0.1"
+version = "1.0.2"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
 display_name = "Disable Letterboxing"
 
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
 description =  """Completely disables all cases of letterboxing, 
-the horizontal black bars that appear when targeting, aiming, in certain cutscenes, etc."""
+the horizontal black bars that appear when targeting, aiming, in certain cutscenes, etc.
+
+GitHub Repository: https://github.com/LT-Schmiddy/mm-no-black-bars-mod"""
 
 # A short description that will show up in this mod's entry in the mod list. This should be human readable and kept short
 # to prevent it from being cut off due to the limited space.
@@ -52,7 +54,9 @@ elf_path = "build/mod.elf"
 func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"
 data_reference_syms_files = [ "Zelda64RecompSyms/mm.us.rev1.datasyms.toml", "Zelda64RecompSyms/mm.us.rev1.datasyms_static.toml" ]
 
-mod_filename = "no_letterboxing_1.0.1"
+mod_filename = "no_letterboxing_1.0.2"
 
 # Additional files to include in the mod.
-additional_files = [ ]
+additional_files = [
+    "thumb.dds"
+]
