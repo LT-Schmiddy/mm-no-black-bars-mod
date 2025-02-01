@@ -1,0 +1,7 @@
+{
+	"name":  "No_Letterboxing",
+	"version_number":  "1.0.2",
+    "website_url":  "https://github.com/LT-Schmiddy/mm-no-black-bars-mod",
+    "description":  "Completely disables letterboxing.",
+    "dependencies":  []
+}

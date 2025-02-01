@@ -5,7 +5,7 @@
 
 # Unique ID of this mod. Pick something long enough that it'll never be the same as any other mod.
 # The name displayed in the mod management menu is separate from this so this doesn't need to be human readable.
-id = "no_letterboxing"
+id = "No_Letterboxing"
 
 # Version of this mod.
 version = "1.0.2"
@@ -14,8 +14,7 @@ version = "1.0.2"
 display_name = "Disable Letterboxing"
 
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
-description =  """Completely disables all cases of letterboxing, 
-the horizontal black bars that appear when targeting, aiming, in certain cutscenes, etc.
+description =  """Completely disables all cases of letterboxing, the horizontal black bars that appear when targeting, aiming, in certain cutscenes, etc.
 
 GitHub Repository: https://github.com/LT-Schmiddy/mm-no-black-bars-mod"""
 
