@@ -16,3 +16,4 @@ runtime/
 .vscode/settings.json
 .vscode/tasks.json
 **/__pycache__
+*.thunderstore.zip
